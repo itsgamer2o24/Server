@@ -1,2 +1,2 @@
 #!/bin/bash
-git clone https://github.com/itsgamer2o24/Server.git && sudo bash Server/script.sh
+bash <(curl -s https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/script.sh)
