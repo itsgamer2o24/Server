@@ -39,7 +39,7 @@ if [ $option -eq 1 ]; then
                   
             elif [ $option_freevps -eq 2 ]; then
                 clear
-                 git clone https://github.com/itsgamer2o24/Server.git && sudo bash Server/script.sh
+                bash <(curl -s https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/script.sh)
                 else
                      echo -e "${RED}[ERROR] Invalid option selected."
                 fi
