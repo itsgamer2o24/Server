@@ -36,7 +36,7 @@ if [ $option -eq 1 ]; then
         read option_freevps
             if [ $option_freevps -eq 1 ]; then
                 sleep 5
-                 /Server/assets/FreeVPS/ && dash Freevps.sh
+                 git clone https://github.com/itsgamer2o24/FreeVPS.git && sudo bash Server/FreeVPS
                  #bash <(curl -s http://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/FreeVPS/Freevps.sh)
             elif [ $option_freevps -eq 2 ]; then
                 clear
