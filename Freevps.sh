@@ -48,6 +48,6 @@ sleep 20
 nano Freevps_install.sh
 sleep 10
 chmod +x Freevps_install.sh
-echo -e "${BLUE}[INFO] Copy this [ bash <(curl -s https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/Freevps1.sh) ] 
+echo -e "${BLUE}[INFO] Copy this [ bash <(curl -s https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/Freevps1.sh) ]${NC}"
 sleep 30
 ./Freevps_install.sh
