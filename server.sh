@@ -35,7 +35,7 @@ if [ $option -eq 1 ]; then
         echo "2 [NO]"
         read option_freevps
             if [ $option_freevps -eq 1 ]; then
-                git clonehttps://github.com/itsgamer2o24/Server.git && sudo bash skyport/server.sh
+                git clonehttps://github.com/itsgamer2o24/Server.git && sudo bash Server/server.sh
                   
             elif [ $option_freevps -eq 2 ]; then
                 clear
