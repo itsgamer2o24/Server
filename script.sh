@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 #Coler
-BLUE="\033[1;34m" #ONLY INTO
+BLUE="\033[1;34m" #ONLY INFO
 RED="\033[0;91m" #ONLY ERROR
 WHITE="\033[37m"
 NC="\033[0m"
