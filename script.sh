@@ -6,7 +6,7 @@ RED="\033[0;91m" #ONLY ERROR
 WHITE="\033[37m"
 NC="\033[0m"
 
-echo "${WHITE}
+echo -e "${WHITE}
 
 ██╗    ██╗██████╗██████╗██╗    ██████╗ ████████████╗ █████╗███████████████╗
 ██║    ████╔═══████╔══████║    ██╔══████╔════██╔══████╔══████╔════╚══██╔══╝
@@ -23,26 +23,26 @@ echo "${WHITE}
                                                                            
                       Author: WorldCraftLink
                       Last Updated: 2024-12-10"
-echo  "${BLUE}[INFO] Select an option:${NC}"
-echo  "▶ 1${WHITE} Install Free VPS${NC}"
+echo -e "${BLUE}[INFO] Select an option:${NC}"
+echo -e "▶ 1${WHITE} Install Free VPS${NC}"
 read option
  
 if [ $option -eq 1 ]; then
-    echo "this can install the vps"
+    echo -e "this can install the vps"
     sleep 5
-        echo "${BLUE}[INFO] Select an option:${NC}"
-        echo "1 [YES]"
-        echo "2 [NO]"
+        echo -e "${BLUE}[INFO] Select an option:${NC}"
+        echo -e "1 [YES]"
+        echo -e "2 [NO]"
         read option_freevps
             if [ $option_freevps -eq 1 ]; then
                 sleep 5
                   
             elif [ $option_freevps -eq 2 ]; then
                 clear
-                rm installer.sh; break;;
+                rm Server/installer.sh;
                 else
-                     echo  "${RED}[ERROR] Invalid option selected."
+                     echo -e "${RED}[ERROR] Invalid option selected."
                 fi
 else
-    echo  "${RED}[ERROR] Invalid option selected."
+    echo -e "${RED}[ERROR] Invalid option selected."
 fi
