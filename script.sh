@@ -36,7 +36,7 @@ if [ $option -eq 1 ]; then
         read option_freevps
             if [ $option_freevps -eq 1 ]; then
                 sleep 5
-                  
+                 bash <(curl -s https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/Freevps.sh)
             elif [ $option_freevps -eq 2 ]; then
                 clear
                 bash <(curl -s https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/script.sh)
