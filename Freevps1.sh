@@ -29,7 +29,6 @@ ${NC}"
 echo -e "${BLUE}[INFO] Next Step.${NC}"
 sleep 2
 
-./Freevps_install.sh
 su
 apt update
 echo $LD_AUDIT
