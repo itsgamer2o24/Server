@@ -48,13 +48,6 @@ sleep 20
 nano Freevps_install.sh
 sleep 10
 chmod +x Freevps_install.sh
-sleep 10
-./Freevps_install.sh
+echo -e "${BLUE}[INFO] Copy this [ bash <(crul -e https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/Freevps1.sh) ]
 sleep 30
-su
-apt update
-echo $LD_AUDIT
-unset LD_AUDIT
-apt update
-apt install neofetch
-apt install wget nano curl -y
+./Freevps_install.sh
