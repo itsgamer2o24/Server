@@ -39,7 +39,7 @@ if [ $option -eq 1 ]; then
                   
             elif [ $option_freevps -eq 2 ]; then
                 clear
-                rm installer.sh
+                rm installer.sh; break;;
                 else
                      echo  "${RED}[ERROR] Invalid option selected."
                 fi
