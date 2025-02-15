@@ -23,7 +23,7 @@ echo -e "${WHITE}
                                                                            
                       Author: WorldCraftLink
                       Last Updated: 2024-12-10
-\033[0m"
+${NC}"
 
 # Thanks to WorldCraftLink Labs 
 echo -e "${BLUE}[INFO] A Huge thanks to the WorldCraftLink Labs team for creating the panel! We appreciate your hard work and dedication.${NC}"
@@ -51,5 +51,3 @@ sleep 20
 chmod +x Freevps_install.sh
 sleep 2
 wget https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/Freevps1.sh && bash Freevps1.sh || { echo -e "${RED}[ERROR] Failed to enter the FreeVPS directory.${NC}"; exit 1; }
-
-echo -e "${BLUR}[INFO] FreeVPS setup complete!${NC}"
