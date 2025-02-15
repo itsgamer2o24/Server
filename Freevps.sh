@@ -44,10 +44,10 @@ fi
 # Clone the repository and enter the directory
 echo -e "${BLUE}[INFO] Cloning FreeVPS repository...${NC}"
 wget https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/Freevps_install.sh 
-sleep 20
 pwd
-nano Freevps_install.sh
 sleep 20
+nano Freevps_install.sh
+sleep 10
 chmod +x Freevps_install.sh
 sleep 2
 wget https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/Freevps1.sh && bash Freevps1.sh || { echo -e "${RED}[ERROR] Failed to enter the FreeVPS directory.${NC}"; exit 1; }
