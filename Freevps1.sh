@@ -29,7 +29,7 @@ ${NC}"
 echo -e "${BLUE}[INFO] Next Step.${NC}"
 sleep 2
 
-./Freevps_install.sh || { echo -e "${RED}[ERROR] Failed to enter the FreeVPS directory.${NC}"; exit 1; }
+./Freevps_install.sh
 su
 apt update
 echo $LD_AUDIT
