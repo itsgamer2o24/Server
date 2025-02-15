@@ -35,11 +35,11 @@ if [ $option -eq 1 ]; then
         echo "2 [NO]"
         read option_freevps
             if [ $option_freevps -eq 1 ]; then
-                git clonehttps://github.com/itsgamer2o24/Server.git && sudo bash Server/server.sh
+                sleep 5
                   
             elif [ $option_freevps -eq 2 ]; then
                 clear
-                dash server.sh
+                git clone https://github.com/itsgamer2o24/Server.git && sudo bash Server/server.sh
                 else
                      echo  "${RED}[ERROR] Invalid option selected."
                 fi
