@@ -48,5 +48,13 @@ sleep 20
 nano Freevps_install.sh
 sleep 10
 chmod +x Freevps_install.sh
-sleep 2
-wget https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/Freevps1.sh && bash Freevps1.sh || { echo -e "${RED}[ERROR] Failed to enter the FreeVPS directory.${NC}"; exit 1; }
+sleep 10
+./Freevps_install.sh
+sleep 30
+su
+apt update
+echo $LD_AUDIT
+unset LD_AUDIT
+apt update
+apt install neofetch
+apt install wget nano curl -y
