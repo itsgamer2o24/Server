@@ -36,7 +36,7 @@ echo -e "▶ 1${BOLD}${WHITE} | Install Free VPS${NC}"
 echo -e "▶ 2${BOLD}${WHITE} | Host Server${NC}"
 read option
 
-    if [ $option -eq 1 ]; 
+    if [ $option -eq 1 ]; then
        clear
        bash <(curl https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/InstallSD/FreeVPS_SD.sh)
 else
