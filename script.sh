@@ -37,8 +37,8 @@ echo -e "▶ 2${BOLD}${WHITE} | Host Server${NC}"
 read option
 
     if [ $option -eq 1 ]; 
-         https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/InstallSD/FreeVPS_SD.sh
-
+       clear
+       bash <(curl https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/InstallSD/FreeVPS_SD.sh)
 else
   echo -e "${BOLD}${RED}[ERROR] ${DISABLE}Invalid option selected.${NC}" 
 fi
