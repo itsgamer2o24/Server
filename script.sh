@@ -38,7 +38,7 @@ read option
 
     if [ $option -eq 1 ]; then
        clear
-       bash <(curl https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/InstallSD/FreeVPS_SD.sh)
+       #bash <(curl https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/InstallSD/FreeVPS_SD.sh)
 else
   echo -e "${BOLD}${RED}[ERROR] ${DISABLE}Invalid option selected.${NC}" 
 fi
