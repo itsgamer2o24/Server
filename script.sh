@@ -31,11 +31,13 @@ echo -e "${BOLD}${BLUE}[INFO] ${DISABLE}Select an option:${NC}"
 echo -e "▶ 1${BOLD}${WHITE} | Install Free VPS${NC}"
 echo -e "▶ 2${BOLD}${WHITE} | Host Server${NC}"
 read optionSD
- 
-if [ $optionSD -eq 1 ]; then #VPS host
+ if [ $optionSD -eq 1 ]; then #VPS host
     echo -e "${BOLD}${BLUE}[INFO] ${DISABLE}This create a free vps${NC}"
     sleep 2
     bash <(curl https://raw.githubusercontent.com/itsgamer2o24/Server/refs/heads/main/InstallSD/FreeVPS_SD.sh)
-   else
-          echo -e "${BOLD}${RED}[ERROR] ${DISABLE}Invalid option selected.${NC}"
-   fi
+      else
+   echo -e "${BOLD}${RED}[ERROR] ${DISABLE}Invalid option selected.${NC}"
+fi
+else
+   echo -e "${BOLD}${RED}[ERROR] ${DISABLE}Invalid option selected.${NC}"
+fi
